@@ -22,4 +22,15 @@ h1{
     text-align: center;
 }
 
+label{
+    display: block;
+    margin: 20px;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
 
