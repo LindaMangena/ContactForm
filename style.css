@@ -1,0 +1,25 @@
+*{
+    font-family : Ariel ;
+}
+
+body{
+    background-image: url("images/mountains.jpg");
+}
+
+
+#overlay{
+    width: 100%;
+    width: 90%;
+    background-color: white;
+    margin:  17vh auto 0 auto;
+    padding: 40px ;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 0;
+    text-align: center;
+}
+
+
