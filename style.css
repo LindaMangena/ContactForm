@@ -1,6 +1,14 @@
 *{
     font-family : Ariel ;
+    padding: 0%;
+    margin: 0;
 }
+
+html{
+    height: -webkit-fill-available;
+}
+
+
 
 body{
     background-image: url("images/mountains.jpg");
@@ -10,7 +18,7 @@ body{
 
 #overlay{
     width: 100%;
-    width: 90%;
+    height: 100%;
     position: fixed;
 
     background-color: rgb(255,0, 106, 0.4);
@@ -39,7 +47,7 @@ h1{
 
 label{
     display: block;
-    margin: 20px;
+    margin: 20px 0;
 }
 
 input, textarea{
@@ -58,6 +66,18 @@ input[type="text"]:focus, textarea :focus{
     border-bottom: 1px solid rgb(255, 0, 106);
 
 }
+
+textarea::-webkit-scrollbar{
+
+    width: 4px;
+
+}
+
+textarea::-webkit-scrollbar-thumb{
+
+    background-color: rgb(255, 0, 106);
+
+}
 .center{
     text-align: center;
 
@@ -65,9 +85,9 @@ input[type="text"]:focus, textarea :focus{
 
 input[type="submit"]{
     margin-top: 30px;
-    width: 100%;
-    max-width: 300px;
-    background-color: linear-gradient(to right, rgb(255,0,106) rgb(255,67,61));
+    width: 90%;
+    max-width: 200px;
+    background: linear-gradient(to right, rgb(255,0,106), rgb(255,67,61));
     color : white;
     font-size: 17px;
     cursor: pointer;
