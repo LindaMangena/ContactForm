@@ -20,6 +20,13 @@ function validateForm() {
         errorNodes[1].innerText = "email cannot be blank";
         email.classList.add("error-border");
 
+        
+    }
+
+    if (message.value.length < 1) {
+        errorNodes[2].innerText = "please enter message ";
+        message.classList.add("error-border");
+
     }
 }
 
