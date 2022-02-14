@@ -95,7 +95,7 @@ input[type="submit"]{
 }
 
     .error-border{
-        color : red;
+         color : red; 
     }
 
     #success{
